@@ -1,0 +1,194 @@
+@charset "utf-8";
+/**
+ * General elements
+ */
+body {
+	background: url(../img/background/bg.jpg) repeat;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width:800px;
+  	background-color: purple;
+  	font-family: arial, sans-serif;
+}
+ 
+/**
+ * Layout of the main page elements 
+ */
+#wrapper {
+	padding: 20px;
+  	margin: auto;
+  	width: 800px; 
+  	background-color: white;
+  	height: auto;
+}
+
+/**
+ * Layout for header
+ */
+#header {
+  	width: 800px;
+  	position: center;
+  	margin-bottom: 4em;
+}
+
+.navbar {
+	list-style-type: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	width: 800px;
+	display block;
+	background-color:#848484;
+	font-family: Courier;
+	float: left;
+}
+
+.navbar a {
+	background-color:#6E6E6E;
+	color:#fff;
+	padding: 10px;
+	text-decoration:none;
+}
+
+.navbar a:hover {
+	background-color:#0066ff;
+	padding:12px 10px 12px 10px;
+}
+
+.navbar a.selected {
+	background-color:#fff;
+	padding:9px 10px 12px 10px;
+	color:#333;
+	}
+
+.navbar li {
+    	float: left;
+    	margin-right: 1.0em;
+}
+
+.sitetitle {
+  	position: absolute;
+  	top: 6px;
+  	left: 130px;
+  	font-size: 48px;
+}
+ 
+.siteslogan {
+  	position: absolute;
+  	top: 2px;
+  	left: 2px;
+  	font-style: italic;
+  	color: #666;
+}
+ 
+ 
+/**
+ * Layout for main
+ */
+#main {
+  	min-height: 30em;
+  	width: 800px;
+  	font-family: Courier;
+}
+
+#main h1, h2, h3 {
+  	text-align: right;
+}
+
+#main p {
+  	text-align: justify;
+}
+
+.mainimg {
+  	float: absolute;  
+}
+ 
+/**
+ * Layout for footer
+ */
+#footer {
+  	width: 800px;
+  	margin-top: 10px;
+  	border-top: 5px solid #ccc;
+  	padding-top: 5px;
+	min-height: 40px;
+}
+
+#blog {
+	margin-top: 10px;
+	padding: 10px;
+	border-style: outset;
+	border-radius: 15px;
+	border-width: 3px;
+	border-color: #d0d0d0;
+	background-color: #d9d9d9;
+}
+
+#blog h1,h2,h3 {
+	text-decoration: none;
+}
+
+#blog a:link, a:visited {
+	text-decoration: none;
+}
+
+#blog a:hover {
+	border-radius: 5px;
+	padding: 5px;
+	background-color: white;
+}
+
+#view li {
+	text-align: left;
+	margin-right: 3em;
+	margin-bottom: 1px;
+	padding: 5px;
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 1px;
+	border-color: black;
+	background-color: #d9d9d9;
+	list-style-type: none;
+}
+
+.sitefooter {
+  	color: #666;
+}
+
+.sitefooter a {
+	color: #666;
+	text-decoration: none;
+}
+
+#main table, tr,th,td {
+	border: 2px solid #999;
+	border-collapse: collapse;
+	text-align: center;
+	padding: 2px;
+}
+
+.database table {
+	width: 800px;
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+	padding: 2px;
+}
+
+.right {
+	padding: 5px;
+	max-width: 38%;
+	float: right;
+}
+
+.right h1, h2, h3 {
+	text-align: left;
+}
+
+.left p {
+	float: left;
+	padding: 10px;
+	margin-top: 0px;
+	max-width: 55%;
+	text-align: left;
+}
